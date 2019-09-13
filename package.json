@@ -1,0 +1,20 @@
+{
+  "name": "@flamescape/service-bus-pubsub",
+  "version": "1.0.0",
+  "description": "A simple & reliable PubSub client for Azure Service Bus",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "pubsub"
+  ],
+  "private": false,
+  "author": "Gareth Hughes <g_github@flamescape.com>",
+  "homepage": "https://github.com/mikuso/service-bus-pubsub",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/service-bus": "^1.0.3",
+    "eventemitter3": "^4.0.0",
+    "promise-queue": "^2.2.5",
+    "simple-backoff": "^1.1.0"
+  }
+}
